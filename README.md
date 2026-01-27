@@ -131,14 +131,10 @@ python run_dpsk_ocr2.py
 - Dynamic resolution
   - Default: (0-6)×768×768 + 1×1024×1024 — (0-6)×144 + 256 visual tokens ✅
 
-## Prompts examples
+## Main Prompts
 ```python
 # document: <image>\n<|grounding|>Convert the document to markdown.
-# other image: <image>\n<|grounding|>OCR this image.
 # without layouts: <image>\nFree OCR.
-# figures in document: <image>\nParse the figure.
-# general: <image>\nDescribe this image in detail.
-# rec: <image>\nLocate <|ref|>xxxx<|/ref|> in the image.
 ```
 
 
