@@ -16,8 +16,8 @@ model = model.eval().cuda().to(torch.bfloat16)
 
 # prompt = "<image>\nFree OCR. "
 prompt = "<image>\n<|grounding|>Convert the document to markdown. "
-image_file = '/3fs-jd/prod/deepseek/private/weihaoran/show/0.jpg'
-output_path = '/3fs-jd/prod/deepseek/private/weihaoran/case/test_git'
+image_file = 'your/image/path'
+output_path = 'your/output/path'
 
 
 
