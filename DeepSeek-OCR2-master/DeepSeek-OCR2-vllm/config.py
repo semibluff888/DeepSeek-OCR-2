@@ -22,14 +22,6 @@ OUTPUT_PATH = '/your/output/path/'
 
 PROMPT = '<image>\n<|grounding|>Convert the document to markdown.'
 # PROMPT = '<image>\nFree OCR.'
-# PROMPT = '<image>\nParse the figure.'
-# TODO commonly used prompts
-# document: <image>\n<|grounding|>Convert the document to markdown.
-# other image: <image>\n<|grounding|>OCR this image.
-# without layouts: <image>\nFree OCR.
-# figures in document: <image>\nParse the figure.
-# general: <image>\nDescribe this image in detail.
-# rec: <image>\nLocate <|ref|>xxxx<|/ref|> in the image.
 # .......
 
 
