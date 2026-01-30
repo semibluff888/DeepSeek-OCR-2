@@ -149,4 +149,15 @@ We also appreciate the benchmark [OmniDocBench](https://github.com/opendatalab/O
 ## Citation
 
 ```bibtex
-coming soon~
+@article{wei2025deepseek,
+  title={DeepSeek-OCR: Contexts Optical Compression},
+  author={Wei, Haoran and Sun, Yaofeng and Li, Yukun},
+  journal={arXiv preprint arXiv:2510.18234},
+  year={2025}
+}
+@article{wei2026deepseek,
+  title={DeepSeek-OCR 2: Visual Causal Flow},
+  author={Wei, Haoran and Sun, Yaofeng and Li, Yukun},
+  journal={arXiv preprint arXiv:2601.20552},
+  year={2026}
+}
