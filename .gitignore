@@ -43,7 +43,3 @@ Thumbs.db
 
 # Logs
 *.log
-
-# Local config/notes
-*.txt
-!requirements.txt

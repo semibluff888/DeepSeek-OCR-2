@@ -1,0 +1,29 @@
+1. 官网代码git clone到本地文件夹：J:\Project
+git clone https://github.com/deepseek-ai/DeepSeek-OCR-2.git
+
+2. 从huggingface下载模型文件
+参考之前的部署记录，因为已经设置了国内镜像，关掉代理后操作！
+在当前根目录J:\Project\DeepSeek-OCR-2 执行如下命令：
+hf download deepseek-ai/DeepSeek-OCR-2 --local-dir ./model
+
+3. 将模型权重拷贝到wsl原生路径！(其中~等价于/home/bo)
+# In WSL terminal
+mkdir -p ~/models
+cp -r /mnt/j/Project/DeepSeek-OCR-2/model ~/models/deepseek-ocr-2
+同时修改了代码中模型权重的路径
+# Then update your script to use:
+# model_path = "/home/bo/models/deepseek-ocr-2"
+
+4. 修改代码，然后提交git相关的提示词：注意，会话是在claude code跑的！因为antigravity一直报错。。。
+
+implement a batch version of run_dpsk_ocr2_pdf.py in run_dpsk_ocr2_Bo.py.
+the input path now contains several pdf files instead of a single pdf.
+
+gitignore文件，忽略掉:
+1. model文件夹下的所有文件,文件夹可以保留
+2. intput, output的所有文件,文件夹可以保留
+3. 其他你认为不太需要的
+
+这个项目我是git clone的一个开源项目(https://github.com/deepseek-ai/DeepSeek-OCR-2)，部署在了本地，我改了也加了一些东西，我想上传到自己的仓库(https://github.com/semibluff888/DeepSeek-OCR-2)，应该怎么操作？我也希望后续能用到开源的持续更新，但是也能自己修改他们的部分模型代码等。
+
+
