@@ -35,7 +35,7 @@
 <p align="center">
   <a href="https://huggingface.co/deepseek-ai/DeepSeek-OCR-2"><b>📥 Model Download</b></a> |
   <a href="https://github.com/deepseek-ai/DeepSeek-OCR-2/blob/main/DeepSeek_OCR2_paper.pdf"><b>📄 Paper Link</b></a> |
-  <a href=""><b>📄 Arxiv Paper Link</b></a> |
+  <a href="https://arxiv.org/abs/2601.20552"><b>📄 Arxiv Paper Link</b></a> |
 </p>
 
 <h2>
